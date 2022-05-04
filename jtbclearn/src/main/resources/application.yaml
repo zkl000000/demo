@@ -1,0 +1,35 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: sql
+
+  mvc:
+    async:
+      request-timeout: 5000
+
+  #  datasource:
+#    #MySQL连接信息
+#    url: jdbc:mysql://127.0.0.1:3306/test
+#    # 账号
+#    username: root
+#    # 密码
+#    password: 12345678
+#    # 驱动
+#    driver-class-name: com.mysql.jdbc.Driver
+
+  datasource:
+    url: jdbc:oracle:thin:@192.168.123.115:1521/orcl
+    username: chqjtgczl_local
+    password: chqjtgczl_local
+    driver-class-name: oracle.jdbc.OracleDriver
+
+lin:
+  path: C:\Users\sharewin\Desktop\
+
+
+  #  datasource:
+  #    url: jdbc:oracle:thin:@192.168.123.115:1521/orcl
+  #    username: chqjtgczl_local
+  #    password: chqjtgczl_local
+  #    driver-class-name: oracle.jdbc.OracleDriver

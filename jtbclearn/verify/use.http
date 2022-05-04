@@ -1,0 +1,21 @@
+###
+GET http://127.0.0.1:8082/hello/sayHello
+Accept: */*
+Content-Type: application/json;charset=UTF-8
+
+
+###
+POST http://127.0.0.1:8082/use/getSqlResopnse/index
+Accept: */*
+Content-Type: application/json;charset=UTF-8
+
+{
+
+}
+
+###
+
+
+
+
+###
